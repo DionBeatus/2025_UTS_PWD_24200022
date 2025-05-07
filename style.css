@@ -1,0 +1,119 @@
+:root {
+    --main: #2d2d2d;
+    --bluemain: #0046be;
+    --lightgray: #f6f8fb;
+    --darkgray: #6c757d;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--lightgray);
+    padding: 60px 20px;
+    text-align: center; 
+}
+
+header img {
+    width: 260px;
+    height: 120px;
+    animation: bounce 2s;
+}
+
+.btn-primary {
+    background-color: var(--bluemain);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+@keyframes bounce {
+    0%, 25%, 50%, 75%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+  }
+
+  .btn-primary:hover {
+    background-color: #00a6ff;
+  }
+
+  .steps {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .step {
+    display: inline;
+    gap: 15px;
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+  }
+
+  .reviews {
+    border-top: 1px solid grey;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 40px;
+
+  }
+
+  .review-list {
+     background: white;
+     padding: 30px 20px;
+     border-radius: 12px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 30px;
+     margin-top: 40px;
+     font-size: 12px;
+     text-align: center;
+  }
+
+  .fas {
+    color: var(--bluemain);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta {
+    background-color: var(--lightgray);
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: var(--bluemain);
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+
+    
+  
+
+
+
+
+
+
+
