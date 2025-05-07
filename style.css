@@ -58,7 +58,7 @@ header img {
   }
 
   .step {
-    display: inline;
+    display: inline-block;
     gap: 15px;
     margin-top: 20px;
     text-align: center;
@@ -95,6 +95,7 @@ header img {
     color: var(--bluemain);
     justify-content: center;
     text-align: center;
+    font-size: 30px;
   }
 
   .cta {
