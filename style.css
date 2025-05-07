@@ -70,16 +70,13 @@ header img {
     padding-top: 50px;
     font-size: 20px;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 40px;
 
   }
 
   .review-list {
      background: white;
      padding: 30px 20px;
-     border-radius: 12px;
+     border-radius: 12px (--lightgray);
      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -87,6 +84,11 @@ header img {
      margin-top: 40px;
      font-size: 12px;
      text-align: center;
+  }
+
+  .review h4 {
+    color: var(--bluemain);
+   
   }
 
   .fas {
