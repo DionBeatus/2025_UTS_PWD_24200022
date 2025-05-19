@@ -56,10 +56,12 @@ header p {
   font-size: 1rem;
   cursor: pointer;
   margin-top: 20px;
+  transition: 0.3s;
+
 }
 
 .btn-primary:hover {
-  background-color: var(--biruutama);
+  background-color: #00a6ff;;
 }
 
 .steps {
